@@ -1,0 +1,177 @@
+:root {
+    --color-navyblue: #2E2F42;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.header-logo {
+    color: var(--color-navyblue);
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
+
+.nav-item {
+    color: var(--color-navyblue);
+    font-weight: 500;
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.address-item:hover,
+.address-item:focus {
+    color: #404BBF;
+}
+
+.address-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Прибираємо маркери */
+.nav-list,
+.address-list,
+.feature-list,
+.doing-list,
+.team-list,
+.filter-list,
+.card-list {
+    list-style-type: none;
+}
+
+/* Прибираємо підкреслення */
+.link {
+    text-decoration: none;
+}
+
+/* Робимо адресу прямим нормальним шрифтом */
+.address {
+    font-style: normal;
+}
+
+.hero-section {
+    background: var(--color-navyblue);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hero-button {
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px 32px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-navyblue);
+}
+
+.team-section {
+    background: #F4F4FD;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-navyblue);
+}
+
+.team-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    width: 264px;
+    height: 380px;
+}
+
+.footer {
+    background: var(--color-navyblue);
+}
+
+.footer-text {
+    color: #E7E9FC;
+}
+
+/* portfolio */
+.filter-button {
+    padding: 12px 24px;
+    background: #F4F4FD;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    border: none;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+
+.card-item {
+    border: 1px solid #E7E9FC;
+    width: 360px;
+    height: 420px;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-navyblue);
+}
+
+.card-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
