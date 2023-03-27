@@ -27,7 +27,6 @@ body {
 
 .header-logo {
     color: var(--navi-blue-color);
-    ;
 }
 
 .footer-logo {
@@ -36,7 +35,6 @@ body {
 
 .nav-item {
     color: var(--navi-blue-color);
-    ;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -74,7 +72,6 @@ body {
 
 .hero-section {
     background: var(--navi-blue-color);
-    ;
 }
 
 .hero-title {
@@ -116,6 +113,11 @@ body {
     letter-spacing: 0.02em;
 }
 
+.feature-text,
+.team-text {
+    letter-spacing: 0.02em;
+}
+
 .team-section {
     background: #F4F4FD;
 }
@@ -128,7 +130,6 @@ body {
     text-align: center;
     text-transform: capitalize;
     color: var(--navi-blue-color);
-    ;
 }
 
 .team-item {
@@ -141,7 +142,6 @@ body {
 
 .footer {
     background: var(--navi-blue-color);
-    ;
 }
 
 .footer-text {
