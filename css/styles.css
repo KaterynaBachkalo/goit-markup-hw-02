@@ -3,6 +3,14 @@
     --cloud-color: #F4F4FD;
     --iris-color: #4D5AE5;
     --slate-color: #434455;
+
+    --ocean-color: #404bbf;
+    --green-color: #31d0aa;
+    --slate-color: #434455;
+    --light-slate-color: #8e8f99;
+    --cornflower-color: #e7e9fc;
+    --navy-blue-modal: #2e2f42;
+    --grey-color: #2e2f42;
 }
 
 body {
@@ -33,7 +41,7 @@ body {
     color: #F4F4FD;
 }
 
-.nav-item {
+.nav-list .link {
     color: var(--navi-blue-color);
     font-weight: 500;
     font-size: 16px;
@@ -41,14 +49,18 @@ body {
     letter-spacing: 0.02em;
 }
 
-.nav-item:hover,
-.nav-item:focus,
-.address-item:hover,
-.address-item:focus {
+.nav-list .current {
     color: #404BBF;
 }
 
-.address-item {
+.nav-list .link:hover,
+.nav-list .link:focus,
+.address-list .link:hover,
+.address-list .link:focus {
+    color: #404BBF;
+}
+
+.address .link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
